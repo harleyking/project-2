@@ -1,0 +1,60 @@
+label {
+	font-size: 9px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #b1a7a7;
+}
+
+.error {
+	text-transform: inherit;
+	letter-spacing: 0;
+	color: red;
+}
+
+input[type="text"].error {
+	background: #f59b9b;
+}
+
+#login-submit {
+	clear: left;
+	padding-top: 25px;
+	border-top:1px solid #eee;
+}
+
+#login-submit label, legend {
+	display:none;
+}
+
+input[type="text"] {
+	border: none;
+	background-color: #eee;
+	font-size: 21px;
+	
+	
+}
+
+input[type="text"]:focus {
+	color: #4bcefa;
+	border: none;
+	outline: none;
+}
+
+#street-add {
+	width: 600px;
+}
+
+input[type="submit"],
+input[type="submit"]:hover {
+	background: #63eaff;
+	color: #fff;
+	border: none;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: .2em;
+}
+
+input[type="submit"]:hover {
+	background: #6388ff;
+	}
+	
+	
