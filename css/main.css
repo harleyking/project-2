@@ -1,3 +1,107 @@
+body {
+	background: #fffff3;
+}
+
+#header .connect a {
+	font-family: source sans pro;
+	color: rgb(47,172,102);
+	text-decoration: none;
+	font-weight: 100;
+
+
+}
+
+#header .connect, #motto {
+	float: right;
+	font-family: source sans pro;
+	font-weight: 100;
+	color: rgb(47,172,102);
+	}
+
+#motto strong{
+	color: rgb(149,27,129);
+	font-weight: 100;
+
+}	
+	
+#header .connect a:hover {
+	color: rgb(149,27,129);
+	
+}
+
+#header .connect a {
+	float: right;
+
+}
+
+#header .connect li {
+	float: left;
+	margin-right: 10px;
+}
+
+.h3 #motto{
+	font-family: source sans;
+}
+
+.nav h2 a{
+	font-family: source sans pro;
+	color: #fff;
+	text-decoration: none;
+}
+
+#about-us {
+	background-image: url("../img/gplaypattern light.png");
+	background-repeat: repeat;
+	width: 50%;
+	height: 100px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: none;
+
+}
+
+#about-us:hover {
+	background-image: url("../img/gplaypattern dark.png");
+	background-repeat: repeat;
+}
+
+#issues {
+	background-image: url("../img/pineapplecut light.png");
+	background-repeat: repeat;
+	width: 50%;
+	height: 100px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: none;
+
+}
+
+#issues:hover {
+	background-image: url("../img/pineapplecut dark.png");
+	background-repeat: repeat;
+}
+
+#register {
+	background-image: url("../img/plaid light.png");
+	background-repeat: repeat;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: none;
+
+}
+
+#register:hover {
+	background-image: url("../img/plaid dark.png");
+	background-repeat: repeat;
+}
+
+
+#content .progress {
+	float: right;
+}
+
 label {
 	font-size: 9px;
 	text-transform: uppercase;
@@ -57,4 +161,9 @@ input[type="submit"]:hover {
 	background: #6388ff;
 	}
 	
+	/* applies to all .interior pages - about, register, etc */
+	.interior #content {
+		background: #fff;
+	}
 	
+	.register #register { /* larger */ }	
