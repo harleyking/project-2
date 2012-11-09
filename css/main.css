@@ -2,12 +2,18 @@ body {
 	background: #fffff3;
 }
 
+#header {
+	margin-top: 20px;
+}
+
 #header .connect a {
 	font-family: source sans pro;
 	color: rgb(47,172,102);
 	text-decoration: none;
 	font-weight: 100;
-
+	font-size: 16px;
+	margin-right: 0px;
+	vertical-align: inherit;
 
 }
 
@@ -164,6 +170,70 @@ input[type="submit"]:hover {
 	/* applies to all .interior pages - about, register, etc */
 	.interior #content {
 		background: #fff;
+		padding: 15px;
 	}
 	
-	.register #register { /* larger */ }	
+	
+
+	.register #register { /* larger */ }
+
+
+h4 {
+	font-family: source sans pro;
+	font-size: 24px;
+	font-weight: 700;
+	color:rgb(47,172,102);
+}
+
+.issue-desc {
+	color: #000;
+	font-style: italic;
+	font-weight: 100;
+}
+
+.energy {
+	margin-top: 15px;
+}
+
+#obama {
+	font-family: source sans pro;
+	font-size: 22px;
+	font-weight: 700;
+	color: rgb(0,132,137);
+}
+
+#romney {
+	font-family: source sans pro;
+	font-size: 22px;
+	font-weight: 700;
+	color: rgb(217,102,11);
+}
+
+#stein {
+	font-family: source sans pro;
+	font-size: 22px;
+	font-weight: 700;
+	color: rgb(93,143,0);
+}
+
+
+#issues-header {
+	font-family: source sans pro;
+	font-size: 22px;
+	font-weight: 700;
+	color: rgb(47,172,102);
+}
+
+#column-1 {
+	color: rgb(47,172,102);
+}
+
+.issues {
+	font-family: source sans pro;
+	font-size: 18px;
+}	
+	
+.agenda {
+	font-family: source sans pro;
+	font-size: 15px;
+}	
