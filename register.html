@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
-    <body class="interior register">
+    <body class="interior l-register">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
@@ -31,10 +31,10 @@
      		<a href="index.html"><img src="img/project-2-final-logo.png" alt="you speak 4 the trees"></a>
      		</h1>
      		<ul class="connect columns six">
+     		<li><a href="contact.html">contact</a></li>
+     		<li><a href="tumblr.com">blog</a></li>
      		<li><a href="twitter.com">twitter</a></li>
      		<li><a href="facebook.com">facebook</a></li>
-     		<li><a href="tumblr.com">blog</a></li>
-     		<li><a href="contact.html">contact</a></li>
      		</ul>
      		<h3 id="motto" class="columns six"><strong>4</strong> the trees have no vote</h3>
      	</div>
@@ -44,20 +44,45 @@
      	</div>
      	
      	<div class="nav">
-     		<h2 id="about-us" class="columns eight alpha"><a href="about-us.html">about us</a></h2>
-     		<h2 id="issues" class="columns eight omega"><a href="issues.html">issues</a></h2>
-     		<h2 id="register" class="columns sixteen"><a href="register to votes.html">register to vote</a></h2>
-
+     		<div id="about-us">
+     		<a href="about-us.html">about us</a>
+     		</div>
+     		<div id="issues">
+     			<a href="issues-main.html">the issues</a>
+     			<ul class="columns two">     		
+     				<li>
+     					<a href="national-issues.html">national issues</a>
+     				</li>
+     				<li>
+     				<a href="local-issues.html">local issues</a>
+     				</li>
+     			</ul>
+     		</div>
+     		<div id="register">
+     			<a href="register.html">register to vote</a>
+     		</div>
      	</div>
      	
      	<div id="content" class="clearfix">
      	
-     		<ol class="progress columns three">
+     	   	<ol class="progress bar columns one omega">
+     			<li id="one"></li>
+     			<li id="two"></li>
+     			<li id="three"></li>
+     			<li id="four"></li>
+     		</ol>
+     		
+     		<ol class="progress-step columns two alpha">
      			<li>Step 1</li>
      			<li>Step 2</li>
      			<li>Step 3</li>
      			<li>Step 4</li>
      		</ol>
+
+     	  
+     	  
+     	  <h1 class="issues-header">Step 1: The Basics</h1>
+     	  
      	  
      	  <form action="" method="get" class="columns twelve">
         
@@ -65,28 +90,32 @@
         	
         		<legend>Your Name</legend>
         		
-        		<div class="control columns four alpha">
+        		<div class="control columns five alpha">
         			<label for="first">First Name</label>
         			<input type="text" name="first" id="first" class="required text">
         		</div>
         	
-        		<div class="control columns four omega">
+        		<div class="control columns seven omega">
         			<label for="last">Last Name</label>
         			<input type="text" name="last" id="last" class="required text">
         		</div>
         		
-        		</fieldset>
+        	</fieldset>
         	
-        	
+        	<fieldset>
+        	<div class="control columns twelve">
         		<label for="street-add">Street Address</label>
         		<input type="text" name="street-add" id="street-add" class="required text">
+        	</div>
         	
+        	<div class="control columns five alpha">
         		<label for="city">City</label>
         		<input type="text" name="city" id="city" class="required text">
+        	</div>
         	
-	        	<fieldset>
+	    	<div class="control columns three omega">
 	        	<label for="state">State</label>
-	        	<select name="state" id="state" class="required">
+	        	<select name="state" id="state" class="required text">
 	        	<option>AK</option>
 	        	<option>AL</option>
 	        	<option>AR</option>
@@ -138,17 +167,30 @@
 	        	<option>WV</option>
 	        	<option>WY</option>
 	        	</select>
+	        	</div>
+	        	
+	        	<div class="control columns four alpha">
+        		<label for="zip">Zip Code</label>
+        		<input type="text" name="zip" id="zip" class="required text">
+        		</div>
 	        	</fieldset>
 	        	
-	        	<fieldset id="email" class="alpha columns eight">
+	        	<fieldset>
+	        	<div class="control columns five alpha">
+	        	<label for="tel">Phone</label>
+	        	<input type="text" name="tel" id="tel" class="required tel">
+	        	</div>
+	        	 
+	        	<div class="control columns seven omega">
 	        	<label for="email">E-mail</label>
 	        	<input type="text" name="email" id="email" class="required email">
+	        	</div>
 	        	</fieldset>
 	        	
-	        	<fieldset id="login-submit" class="alpha columns eight">
+	        	<fieldset id="login-submit" class="control alpha columns ten">
 	        	<legend>Submit Login</legend>
 	        	<label for="continue">Next Step</label>
-	        	<input type="submit" name="continue" id="continue" value="next step">
+	        	<input type="submit" name="continue" id="continue" value="Next Step">
 	        	</fieldset>
         
         </form>
